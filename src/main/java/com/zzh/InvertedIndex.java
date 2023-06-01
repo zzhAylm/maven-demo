@@ -90,8 +90,8 @@ public class InvertedIndex {
         job.setOutputValueClass(Text.class);
 
         // 设置输入和输出目录
-        FileInputFormat.addInputPath(job, new Path("/Users/zzh/Company/projects/maven-demo/input"));
-        FileOutputFormat.setOutputPath(job, new Path("/Users/zzh/Company/projects/maven-demo/output"));
+        FileInputFormat.addInputPath(job, new Path("./input"));
+        FileOutputFormat.setOutputPath(job, new Path("./output"));
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
