@@ -8,5 +8,6 @@ package com.zzh;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.printf("git push 测试");
     }
 }
